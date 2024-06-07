@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(143, 208, 65);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 400px;
+            margin: 21vh auto;
+            backdrop-filter: blur(12px);
+            border: 0.5px solid rgb(83, 229, 255);
+            box-shadow: 0 0 5px rgb(83, 229, 255),
+                0 0 25px rgb(83, 229, 255), 0 0 50px rgb(83, 229, 255);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        form div {
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        form input {
+            padding: 5px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .btn {
+            margin: 5px 0;
+            padding: 6px 10px;
+            border: none;
+            background-color: rgb(58, 206, 78);
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color:white;
+            font-weight: 200;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <img class="" src="https://banner2.cleanpng.com/20180426/lwq/kisspng-computer-icons-login-management-user-5ae155f3386149.6695613615247170432309.jpg" alt=""
+                width="100" height="100">
+            <h1 class="">Login Page</h1>
+            <div class="name">
+                <input type="text" name="fName" class="fname" placeholder="First Name" required autofocus>
+            </div>
+            <div class="email">
+                <input type="email" name="email" class="" placeholder="Email" required>
+            </div>
+            <div class="pass">
+                <input type="password" name="email" class="" placeholder="Password" required>
+                <input type="password" name="email" class="" placeholder="Conform Your Password" required>
+            </div>
+            <button class="btn" type="submit">Login</button>
+            <div class="switch">
+                <a href="#">Already have an account? Login</a>
+                </div>
+
+    </form>
+
+</body>
+
+</html>
