@@ -4,7 +4,7 @@
 
   <parent>
     <groupId>com.cedarsoft</groupId>
-    <artifactId>open</artifactId>
+    <artifactId>war</artifactId>
     <version>39</version>
   </parent>
 
